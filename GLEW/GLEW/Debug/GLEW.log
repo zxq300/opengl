@@ -1,0 +1,53 @@
+﻿生成启动时间为 2016/5/19 12:03:32。
+     1>项目“g:\Document\visual studio 2015\Projects\GLEW\GLEW\GLEW.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         I:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt cubeMaps.cpp
+         cubeMaps.cpp
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(220): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(367): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(368): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(372): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(373): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(374): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(375): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>g:\document\visual studio 2015\projects\glew\glew\cubemaps.cpp(381): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+       Link:
+         I:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"g:\Document\visual studio 2015\Projects\GLEW\Debug\GLEW.exe" /INCREMENTAL /NOLOGO glew32s.lib glfw3.lib OpenGL32.lib SOIL.lib "assimp-vc130-mtd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"g:\Document\visual studio 2015\Projects\GLEW\Debug\GLEW.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"g:\Document\visual studio 2015\Projects\GLEW\Debug\GLEW.lib" /MACHINE:X86 Debug\blending.obj
+         Debug\camera.obj
+         Debug\camera2.obj
+         Debug\coordinate.obj
+         Debug\coordinateM.obj
+         Debug\cubeMaps.obj
+         Debug\depthTesting.obj
+         Debug\faceCulling.obj
+         Debug\frameBuffer.obj
+         Debug\hello.obj
+         Debug\color.obj
+         Debug\light.obj
+         Debug\lightCaster.obj
+         Debug\lightCaster2.obj
+         Debug\lightCaster3.obj
+         Debug\lightingmaps.obj
+         Debug\loadModel.obj
+         Debug\loadModelWithLight.obj
+         Debug\multiLights.obj
+         Debug\shaderAdvanced.obj
+         Debug\shaderAdvanced2.obj
+         Debug\shaderMini.obj
+         Debug\ShaderProgram.obj
+         Debug\spencilTesting.obj
+         Debug\texture.obj
+         Debug\transformation.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“g:\Document\visual studio 2015\Projects\GLEW\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(image_DXT.obj)”或在“g:\Document\visual studio 2015\Projects\GLEW\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(image_helper.obj)”或在“g:\Document\visual studio 2015\Projects\GLEW\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(SOIL.obj)”或在“g:\Document\visual studio 2015\Projects\GLEW\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: 未找到 PDB“SOIL.pdb”(使用“SOIL.lib(stb_image_aug.obj)”或在“g:\Document\visual studio 2015\Projects\GLEW\Debug\SOIL.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         GLEW.vcxproj -> g:\Document\visual studio 2015\Projects\GLEW\Debug\GLEW.exe
+     1>已完成生成项目“g:\Document\visual studio 2015\Projects\GLEW\GLEW\GLEW.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.15
